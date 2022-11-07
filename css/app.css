@@ -1,0 +1,18 @@
+.hero {
+    background-image: linear-gradient(to top, rgba(23, 198, 252, 0.95) 0%, rgba(23, 198, 252, 0.95) 100%), url(../img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+
+    transition-property: justify-content;
+    transition-duration: 1s;
+}
+
+.center:hover {
+    justify-content: center;
+}
